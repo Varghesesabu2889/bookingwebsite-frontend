@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {Card,CardBody} from 'reactstrap'
+import {Card,CardBody} from 'react-bootstrap'
 import './tour-card.css'
 const TourCard = ({tour}) => {
 
-const {id,title,city, photo,price,featured,avgRating,reviews} = tour
+const {id,title,city, photo,price,avgRating,reviews} = tour  //ignore featured
 
   return <div className='tour__card'>
     <Card>

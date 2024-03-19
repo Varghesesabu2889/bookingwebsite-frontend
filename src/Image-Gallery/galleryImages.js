@@ -9,6 +9,15 @@ import galleryImg07 from '.././assets/images/gallery-07.jpg'
 import galleryImg08 from '.././assets/images/gallery-08.png'
 import galleryImg09 from '.././assets/images/gallery-09.png'
 import galleryImg10 from '.././assets/images/gallery-10.png'
+import galleryImg11 from '.././assets/images/gallery-12.jpg'
+import galleryImg12 from '.././assets/images/gallery-13.jpg'
+import galleryImg13 from '.././assets/images/gallery-14.jpg'
+import galleryImg14 from '.././assets/images/gallery-15.jpg'
+import galleryImg15 from '.././assets/images/gallery-10.png'
+import galleryImg16 from '.././assets/images/gallery-12.jpg'
+
+
+
 
 
 const galleryImages =[
@@ -21,7 +30,13 @@ const galleryImages =[
     galleryImg07,
     galleryImg08,
     galleryImg09,
-    galleryImg10
+    galleryImg10,
+    galleryImg11,
+    galleryImg12,
+    galleryImg13,
+    galleryImg14,
+    galleryImg15,
+    galleryImg16
 ]
 
 export default galleryImages

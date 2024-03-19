@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/home.css'
-import {Container,Row,Col} from 'reactstrap'
+import {Container,Row,Col} from 'react-bootstrap'
 import heroVideo from '../assets/images/hero-video.mp4'
 import heroVideo2 from '../assets/images/herovideo2.mp4'
 import heroVideo3 from '../assets/images/herovideo3.mp4'

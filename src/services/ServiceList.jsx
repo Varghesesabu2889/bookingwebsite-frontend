@@ -1,6 +1,6 @@
 import React from 'react';
 import ServiceCard from './ServiceCard';
-import { Col } from 'reactstrap';
+import { Col } from 'react-bootstrap';
 import weatherImg from '../assets/images/weather.png';
 import guideImg from '../assets/images/guide.png';
 import customationImg from '../assets/images/customization.png';
@@ -14,12 +14,12 @@ const servicesData = () => [
   {
     imageUrl: guideImg,
     title: 'Best Tour Guide',
-    desc: 'This service provides the best tour guide for your travel needs.',
+    desc: 'Embark on unforgettable journeys with our service, offering the best tour guides tailored to your travel needs',
   },
   {
     imageUrl: customationImg,
     title: 'Customization',
-    desc: 'This service allows for customizations to meet your specific requirements.',
+    desc: 'Customization tailors products or services to specific preferences. In travel, it lets travelers personalize experiences.',
   },
 ];
 

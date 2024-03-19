@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Col, Form, FormGroup } from 'reactstrap';
+import { Col, Form, FormGroup } from 'react-bootstrap';
 import './search-bar.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
