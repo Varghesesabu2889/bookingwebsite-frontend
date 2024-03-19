@@ -1,0 +1,69 @@
+
+
+.hero__subtitle img{
+    width: 2.3rem;
+    height: 2.1rem;
+    margin-bottom: 10px;
+}
+
+.hero__content h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+.hero__content h1 .highlight{
+    color: var(--secondary-color);
+}
+
+.hero__content p{
+    font-size: 1.1rem;
+    color: var(--text-color);
+    line-height: 2rem;
+}
+
+.hero__img_box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    object-fit: cover;
+}
+
+.hero__content{
+    padding-top: 3.5rem;
+
+}
+.hero__img_box{
+    padding-top: 2rem;
+}
+
+
+.services__subtitle{
+     font-size: 2.2rem;
+     font-weight: 500;
+     color: blue;
+     font-family: var(--subtitle-font-name);
+
+}
+
+.services__title{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.featured__tour-title{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.image__gallery{
+    transition: 0.3s;
+
+}
+
+.image__gallery:hover{
+    transform: scale(1.1);
+}
