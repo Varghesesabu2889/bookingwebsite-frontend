@@ -10,6 +10,7 @@ import SearchBar from '../shared/SearchBar'
 import ServiceList from '../services/ServiceList'
 import FeaturedToursList from '../components/Featured-Tours/FeaturedToursList'
 import ImageGallery from '../Image-Gallery/ImageGallery'
+import Newsletter from '../shared/Newsletter'
 const Home = () => {
   return (
     <>
@@ -82,7 +83,7 @@ const Home = () => {
       </Container>
     </section>
     {/* image gallery section */}
-    <section>
+    <section> 
       <Container>
         <Row>
           <Col lg="12">
@@ -95,6 +96,7 @@ const Home = () => {
         </Row>
       </Container>
     </section>
+    <Newsletter/>
     </>
   )
 }
