@@ -13,7 +13,7 @@ import galleryImg11 from '.././assets/images/gallery-12.jpg'
 import galleryImg12 from '.././assets/images/gallery-13.jpg'
 import galleryImg13 from '.././assets/images/gallery-14.jpg'
 import galleryImg14 from '.././assets/images/gallery-15.jpg'
-import galleryImg15 from '.././assets/images/gallery-10.png'
+import galleryImg15 from '.././assets/images/gallery-16.png'
 import galleryImg16 from '.././assets/images/gallery-12.jpg'
 
 
@@ -22,21 +22,21 @@ import galleryImg16 from '.././assets/images/gallery-12.jpg'
 
 const galleryImages =[
     galleryImg01,
-    galleryImg02,
-    galleryImg03,
-    galleryImg04,
-    galleryImg05,
-    galleryImg06,
-    galleryImg07,
-    galleryImg08,
-    galleryImg09,
     galleryImg10,
-    galleryImg11,
-    galleryImg12,
-    galleryImg13,
+    galleryImg06,
     galleryImg14,
+    galleryImg02,
+    galleryImg16,
+    galleryImg03,
+    galleryImg12,
+    galleryImg07,
+    galleryImg09,
+    galleryImg05,
+    galleryImg13,
     galleryImg15,
-    galleryImg16
+    galleryImg04,
+    galleryImg08,
+    galleryImg11 
 ]
 
 export default galleryImages

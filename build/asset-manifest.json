@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d052d933.css",
-    "main.js": "/static/js/main.cfc5be01.js",
+    "main.css": "/static/css/main.6795d34d.css",
+    "main.js": "/static/js/main.fb8b2dce.js",
     "static/media/hero-video.mp4": "/static/media/hero-video.3fdabef472e98ba9fcc6.mp4",
     "static/media/world.gif": "/static/media/world.f8199358bba1926d773b.gif",
     "static/media/herovideo3.mp4": "/static/media/herovideo3.a41bcb7c14218ba4fc9f.mp4",
@@ -25,8 +25,10 @@
     "static/media/gallery-15.jpg": "/static/media/gallery-15.224fe7512e24b88f46a7.jpg",
     "static/media/gallery-02.jpg": "/static/media/gallery-02.9acd7c84d293f45ac15e.jpg",
     "static/media/gallery-07.jpg": "/static/media/gallery-07.c9ae06755eebce595a38.jpg",
+    "static/media/tour.jpg": "/static/media/tour.4aa39fc95609710b19aa.jpg",
     "static/media/remixicon.woff?t=1590207869815": "/static/media/remixicon.8d09fa11700ed63cf96e.woff",
     "static/media/gallery-06.jpg": "/static/media/gallery-06.4c0ac04026db9075b42b.jpg",
+    "static/media/male-tourist.png": "/static/media/male-tourist.f000d0ad1ca492b2bcfb.png",
     "static/media/remixicon.woff2?t=1590207869815": "/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "static/media/gallery-14.jpg": "/static/media/gallery-14.0d2b2546526653c3a18c.jpg",
     "static/media/gallery-09.png": "/static/media/gallery-09.d4b57a152cfbcc287f1e.png",
@@ -37,11 +39,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.d052d933.css.map": "/static/css/main.d052d933.css.map",
-    "main.cfc5be01.js.map": "/static/js/main.cfc5be01.js.map"
+    "main.6795d34d.css.map": "/static/css/main.6795d34d.css.map",
+    "main.fb8b2dce.js.map": "/static/js/main.fb8b2dce.js.map"
   },
   "entrypoints": [
-    "static/css/main.d052d933.css",
-    "static/js/main.cfc5be01.js"
+    "static/css/main.6795d34d.css",
+    "static/js/main.fb8b2dce.js"
   ]
 }

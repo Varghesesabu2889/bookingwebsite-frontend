@@ -5,19 +5,19 @@ import TourCard from '../shared/TourCard';
 import SearchBar from '../shared/SearchBar';
 import tourData from '../assets/data/tours';
 import { Container, Row, Col } from 'react-bootstrap';
-
+import Newsletter from '../shared/Newsletter'
 const Tours = () => {
   const [pageCount, setPageCount] = useState(0);
   const [page, setPage] = useState(0);
 
   useEffect(() => {
-    const pages = Math.ceil(tourData.length / 4); // Calculate page count based on tourData length
+    const pages = Math.ceil(tourData.length / 4); 
     setPageCount(pages);
   }, []);
 
   return (
     <>
-      <CommonSection title={'All Tours'} />
+      <CommonSection title={'Indian Tours'} />
       <section>
         <Container>
           <Row>
@@ -45,6 +45,7 @@ const Tours = () => {
           </Row>
         </Container>
       </section>
+      <Newsletter/>
     </>
   );
 };

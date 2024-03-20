@@ -5,16 +5,19 @@ import tourImg04 from "../images/tour-img04.jpg";
 import tourImg05 from "../images/tour-img05.jpg";
 import tourImg06 from "../images/tour-img06.jpg";
 import tourImg07 from "../images/tour-img07.jpg";
+import tourImg08 from "../images/tour-img08.jpg";
+
 
 const tours = [
   {
     id: "01",
-    title: "Westminister Bridge",
-    city: "London",
+    title: "Yumthang Valley,Sikkim",
+    city: "Sikkim",
     distance: 300,
-    price: "1,60,000",
+    address:"North Sikkim, Sikkim, India",
+    price: "60,000",
     maxGroupSize: 10,
-    desc: "this is the description",
+    desc: "Yumthang Valley is a picturesque village in North Sikkim, known for its natural beauty and as a base for exploring the stunning. Here famous for its colorful blooms during spring. ",
     reviews: [
       {
         // name: "jhon doe",
@@ -27,12 +30,13 @@ const tours = [
   },
   {
     id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
+    title: "Majuli, Assam",
+    city: "Assam",
     distance: 400,
-    price: "3,50,000",
+    address: "Brahmaputra River, Assam, India",
+   price: "55,000",
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Majuli is the largest river island in the world, located in the Brahmaputra River in Assam. It is known for its vibrant culture, traditional Assamese villages, and the unique satras  preserving ancient art forms like Sattriya dance and music.",
     reviews: [
       {
         name: "jhon doe",
@@ -45,30 +49,32 @@ const tours = [
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
-    distance: 500,
-    price: "2,00,000",
+    title: "Hogenakkal Falls, Tamil Nadu",
+    city: "Tamil Nadu",
+    distance: 180,
+    address:"Dharmapuri district, Tamil Nadu, India",
+    price: "25,000",
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Often referred to as the Niagara of India, Hogenakkal Falls is a stunning waterfall on the Kaveri River, known for its medicinal baths and coracle boat rides through the cascading waters",
     reviews: [
       {
         name: "jhon doe",
         rating: 4.6,
       },
     ],
-    avgRating: 5.2,
+    avgRating: 4.2,
     photo: tourImg03,
     featured: true,
   },
   {
     id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
+    title: "Living Root Bridges, Meghalaya",
+    city: "Meghalaya",
     distance: 500,
-    price: "5,50,000",
+    address:" Cherrapunji and Mawlynnong areas: East Khasi Hills district, Meghalaya, India ",
+    price: "55,000",
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "In the northeastern state of Meghalaya, particularly in the Cherrapunji and Mawlynnong areas, you can find living root bridges. These bridges are made by guiding the roots of rubber trees across rivers, creating strong and durable natural bridges that continue to grow and strengthen over time.",
     reviews: [
       {
         name: "jhon doe",
@@ -81,12 +87,13 @@ const tours = [
   },
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
+    title: "Ross Island, Andaman and Nicobar Islands",
+    city: "Andaman and Nicobar Islands",
     distance: 500,
-    price: "6,50,000",
+    address:" Andaman and Nicobar Islands, India",
+    price: "85,000",
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Ross Island is an abandoned British colonial settlement in the Andaman Islands. It features overgrown ruins, including a church, cemetery, and old buildings, giving visitors a glimpse into its historical past.",
     reviews: [
       {
         name: "jhon doe",
@@ -99,12 +106,13 @@ const tours = [
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
+    title: "Shettihalli Rosary Church, Karnataka",
+    city: "Karnataka",
     distance: 500,
-    price: "4,00,000",
+    address: "Shettihalli, Tumakuru, Karnataka, India",
+    price: "30,000",
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: " The Shettihalli Rosary Church is a partially submerged church located in Hassan district, Karnataka. It is a stunning sight during monsoon when the Hemavati River floods, partially covering the church's ruins.",
     reviews: [
       {
         name: "jhon doe",
@@ -117,12 +125,13 @@ const tours = [
   },
   {
     id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
+    title: "Loktak Lake and Phumdis, Manipur",
+    city: "Manipur",
     distance: 500,
-    price: "5,30,000",
+    address: "Loktak Lake,Moirang, Bishnupur district, Manipur, India",
+    price: "40,000",
     maxGroupSize: 8,
-    desc: "this is the description",
+    desc: "Loktak Lake in Manipur is known for its unique floating islands called phumdis. These circular mass of vegetation, soil, and organic matter float on the lake's surface and are home to diverse flora and fauna, including the endangered Sangai deer.",
     reviews: [
       {
         name: "jhon doe",
@@ -135,12 +144,13 @@ const tours = [
   },
   {
     id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Nanda Devi Sanctuary, Uttarakhand",
+    city: "Uttarakhand",
     distance: 500,
-    price: "8,50,000",
-    maxGroupSize: 8,
-    desc: "this is the description",
+    address:" Chamoli district, Uttarakhand, India",
+    price: "50,000",
+    maxGroupSize: 8, 
+    desc: "The Nanda Devi Sanctuary is a rare and pristine wilderness area in the Garhwal Himalayas. It is home to diverse flora and fauna, including rare species like the snow leopard and Himalayan musk deer.",
     reviews: [
       {
         name: "jhon doe",
@@ -148,7 +158,7 @@ const tours = [
       },
     ],
     avgRating: 4.7,
-    photo: tourImg03,
+    photo: tourImg08,
     featured: false,
   },
 ];

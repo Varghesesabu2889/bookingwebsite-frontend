@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles/home.css'
 import {Container,Row,Col} from 'react-bootstrap'
-import heroVideo from '../assets/images/hero-video.mp4'
-import heroVideo2 from '../assets/images/herovideo2.mp4'
-import heroVideo3 from '../assets/images/herovideo3.mp4'
+import heroVideo2 from '../assets/images/hero-video3.mp4'
+import heroVideo from '../assets/images/hero-video2.mp4'
+import heroVideo3 from '../assets/images/hero-video.mp4'
 import Subtitle from '../shared/Subtitle'
 import worldImg from '../assets/images/world.gif'
 import SearchBar from '../shared/SearchBar'
@@ -24,22 +24,22 @@ const Home = () => {
                 <Subtitle subtitle={'Know Before You Go'}/>
                 <img src={worldImg} alt="" />
                 </div>
-                <h1>Traveling opens the door of creating
-                  <span className="highlight">
-                    memories </span></h1>
+                <h3>Discover India's Hidden Gems: Uncovering Rare and Remarkable Destinations with us
+                   </h3>
                     <p>
-                    One of my favorite travel memories is from a trip to Kyoto, Japan. 
-                    The city is steeped in rich history and culture, and everywhere you look, 
-                    there's something fascinating to discover.</p><p>During my time in Kyoto, I visited the 
-                    stunning Fushimi Inari Taisha, a Shinto shrine famous for its thousands of vibrant red
-                     torii gates. Walking through the winding path of gates surrounded by lush greenery was a 
-                     truly mesmerizing experience.
+                    During my travels through India's rare and stunning destinations,
+                     I had the privilege of discovering a secluded village nestled amidst
+                      the Western Ghats. The warm hospitality of the locals, coupled with 
+                      breathtaking landscapes of tea plantations and misty mountains, created 
+                      a mesmerizing and unforgettable experience.</p> <p> I'd like to express my gratitude to Journey Junction
+                       website for inspiring me to explore India's rare and beautiful destinations,
+                        leading me to discover hidden gems and create unforgettable memories during my travels.
                     </p>
                   </div>
           </Col>
           <Col lg="2">
             <div className="hero__img_box">
-              <video src={heroVideo} alt="" autoPlay loop controls/>
+              <video src={heroVideo} alt="" autoPlay  loop controls/>
             </div>
           </Col>
           <Col lg="2">

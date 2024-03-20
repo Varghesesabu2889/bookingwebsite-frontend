@@ -8,16 +8,17 @@ const Newsletter = () => {
         <Row>
             <Col lg='6'>
                 <div className='newsletter__content'>
-                    <h2>Subscribe now to get useful traveling information</h2>
+                    <h2>Embark on a Journey of Discovery, Subscribe to Unlock India's Hidden Treasures!</h2>
                     <div className="newsletter__input">
                         <input type="email" placeholder="Enter your email"/>
                         <button className="btn newsletter__btn">Subscribe</button>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                         elit. Vitae aliquam maiores numquam placeat, consequuntur 
-                         pariatur molestiae earum, sequi, inventore debitis adipisci velit? 
-                         Exercitationem, deleniti. Voluptatem dolorum nostrum aliquid sit omnis.
+                    Subscribe to our website today to unlock access to curated travel 
+                    content, insider insights, and special promotions tailored to enhance
+                     your exploration of India's rare and enchanting places. Join us on a 
+                     journey of discovery and adventure as we uncover hidden treasures and share 
+                     unforgettable experiences together.
                     </p>
                     </div>
                 </Col>
