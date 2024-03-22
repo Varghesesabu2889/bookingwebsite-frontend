@@ -1,7 +1,7 @@
 import React from 'react'
 import './newsletter.css'
 import {Container,Row,Col} from 'react-bootstrap'
-import maleTourist from '../assets/images/male-tourist.png'
+import maleTourist from '../assets/images/smiley-woman-posing-her-baggage.png'
 const Newsletter = () => {
   return <section className='newsletter'>
     <Container>
@@ -24,7 +24,7 @@ const Newsletter = () => {
                 </Col>
             <Col lg='6'>
                 <div className="newsletter__img">
-                    <img src={maleTourist} alt="" />
+                    <img src={maleTourist} alt="" width={"300px"} height={"400px"} />
                 </div>
             </Col>
 

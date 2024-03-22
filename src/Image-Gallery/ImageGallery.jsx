@@ -3,7 +3,9 @@ import Masnory,   {ResponsiveMasonry} from 'react-responsive-masonry'
 import galleryImages from './galleryImages'
 const ImageGallery = () => {
   return (
+    
     <ResponsiveMasonry columnsCountBreakPoints={{350:1,768:3, 992:4 }}>
+      <h1 style={{color:"blue"}}>Our Gallery</h1>
         <Masnory gutter='1rem'>
             {
                 galleryImages.map((item,index)=>(

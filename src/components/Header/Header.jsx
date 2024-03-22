@@ -15,7 +15,7 @@ const nav__link = [
   },
   {
     path:'/imageGallery',
-    display:'Image Gallery'
+    display:'Gallery'
   },
   {
     path: '/about',

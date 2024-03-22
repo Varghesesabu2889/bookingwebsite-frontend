@@ -1,0 +1,17 @@
+
+
+.login__img{
+width: 60%;
+text-align: center;
+}
+
+
+
+.Login_img img {
+width: 7%;
+object-fit: contain;
+}
+.login_form{
+padding: 50px;
+background: var(--secondary-color);
+}
