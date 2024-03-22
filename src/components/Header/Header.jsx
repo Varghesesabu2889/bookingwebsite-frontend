@@ -10,13 +10,17 @@ const nav__link = [
     display: 'Home'
   },
   {
-    path: '/about',
-    display: 'About'
-  },
-  {
     path: '/tours',
     display: 'Tours'
   },
+  {
+    path:'/imageGallery',
+    display:'Image Gallery'
+  },
+  {
+    path: '/about',
+    display: 'About'
+  }
 ];
 
 const Header = () => {
@@ -78,7 +82,7 @@ return window.removeEventListener('scroll',stickyHeaderFunc)
             </div>
             <span className='mobile__menu'>
               <Link>
-                <i className="ri-menu-line"></i>
+                {/* <i className="ri-menu-line"></i> */}
               </Link>
             </span>
           </div>

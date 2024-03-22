@@ -16,17 +16,11 @@ const tours = [
     distance: 300,
     address:"North Sikkim, Sikkim, India",
     price: "60,000",
-    maxGroupSize: 10,
-    desc: "Yumthang Valley is a picturesque village in North Sikkim, known for its natural beauty and as a base for exploring the stunning. Here famous for its colorful blooms during spring. ",
-    reviews: [
-      {
-        // name: "jhon doe",
-        // rating: 4.5,
-      },
-    ],
+    maxGroupSize: 60,
+    desc: "Yumthang Valley in Sikkim is a picturesque paradise nestled amidst the Eastern Himalayas, known for its breathtaking landscapes and vibrant flora. As a part of the Yumthang Valley of Flowers Sanctuary, it boasts an array of alpine flowers, making it a haven for nature lovers and botanists alike. The valley is also home to the Shingba Rhododendron Sanctuary, where various species of rhododendrons bloom in vibrant hues during the spring season, creating a mesmerizing sight. Visitors can indulge in trekking adventures to explore the valley's hidden gems, including hot springs renowned for their therapeutic properties. The pristine Lachung River meanders through the valley, adding to its serene charm and offering opportunities for picnics by the riverside. Yumthang Valley's tranquil ambiance and stunning vistas make it a must-visit destination for those seeking tranquility and natural beauty in the heart of the Himalayas. ",
+    reviews: [ {},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},],
     avgRating: 4.6,
     photo: tourImg01,
-    // featured: true,
   },
   {
     id: "02",
@@ -35,14 +29,9 @@ const tours = [
     distance: 400,
     address: "Brahmaputra River, Assam, India",
    price: "55,000",
-    maxGroupSize: 8,
-    desc: "Majuli is the largest river island in the world, located in the Brahmaputra River in Assam. It is known for its vibrant culture, traditional Assamese villages, and the unique satras  preserving ancient art forms like Sattriya dance and music.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    maxGroupSize: 38,
+    desc: "Majuli, located in Assam, is the world's largest river island, nestled amidst the mighty Brahmaputra River's meandering channels. This unique island is not only a geographical marvel but also a cultural and spiritual hub of Assam. Majuli is renowned for its vibrant Vaishnavite culture, with numerous satras (monasteries) showcasing traditional dance, music, and art forms. The island's scenic beauty, with lush greenery and expansive river views, adds to its allure as a tourist destination. Visitors can immerse themselves in the island's rich heritage by exploring ancient satras like Kamalabari Satra and Auniati Satra, known for their architectural splendor and religious significance. Majuli also offers opportunities for birdwatching, as it is a haven for migratory birds, especially during the winter months. A trip to Majuli promises a unique blend of cultural immersion, natural beauty, and spiritual enlightenment.",
+    reviews: [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},],
     avgRating: 3.8,
     photo: tourImg02,
     featured: true,
@@ -56,15 +45,10 @@ const tours = [
     price: "25,000",
     maxGroupSize: 8,
     desc: "Often referred to as the Niagara of India, Hogenakkal Falls is a stunning waterfall on the Kaveri River, known for its medicinal baths and coracle boat rides through the cascading waters",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},],
     avgRating: 4.2,
     photo: tourImg03,
-    featured: true,
+   
   },
   {
     id: "04",
@@ -73,17 +57,12 @@ const tours = [
     distance: 500,
     address:" Cherrapunji and Mawlynnong areas: East Khasi Hills district, Meghalaya, India ",
     price: "55,000",
-    maxGroupSize: 8,
-    desc: "In the northeastern state of Meghalaya, particularly in the Cherrapunji and Mawlynnong areas, you can find living root bridges. These bridges are made by guiding the roots of rubber trees across rivers, creating strong and durable natural bridges that continue to grow and strengthen over time.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    maxGroupSize: 28,
+    desc: "The Living Root Bridges of Meghalaya are a testament to nature's ingenuity and human collaboration with the environment. Found in the dense forests of Meghalaya, these unique bridges are crafted by weaving the aerial roots of the Ficus elastica tree species over several decades, creating sturdy and durable pathways across rivers and streams. The most famous among these bridges is the Double Decker Living Root Bridge in Cherrapunji, known for its intricate structure and breathtaking surroundings. These living bridges are not only functional but also blend seamlessly into the surrounding natural environment, showcasing the harmonious relationship between humans and nature. Trekking through the lush forests to witness these marvels is a memorable experience, offering glimpses of Meghalaya's rich biodiversity and traditional knowledge of sustainable living practices. The Living Root Bridges stand as a symbol of ecological resilience and cultural heritage, drawing visitors from around the world to marvel at their natural beauty and engineering marvel.",
+    reviews: [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},],
     avgRating: 4.2,
     photo: tourImg04,
-    featured: true,
+    
   },
   {
     id: "05",
@@ -92,17 +71,12 @@ const tours = [
     distance: 500,
     address:" Andaman and Nicobar Islands, India",
     price: "85,000",
-    maxGroupSize: 8,
-    desc: "Ross Island is an abandoned British colonial settlement in the Andaman Islands. It features overgrown ruins, including a church, cemetery, and old buildings, giving visitors a glimpse into its historical past.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 3.9,
+    maxGroupSize: 38,
+    desc: "Ross Island, located in the Andaman and Nicobar Islands, is a historic gem and a paradise for history enthusiasts and nature lovers alike. Once the administrative headquarters of the British in the Andaman Islands, Ross Island now stands as a testimony to its colonial past, with remnants of colonial buildings and structures dotting its landscape. Visitors can explore the island's rich history by visiting landmarks such as the British Commissioner's residence, churches, and barracks, offering insights into its colonial heritage. Beyond its historical significance, Ross Island boasts stunning beaches, clear waters ideal for snorkeling and diving, and lush greenery teeming with wildlife. The island's tranquil ambiance and scenic beauty make it a perfect getaway for those seeking a blend of history, nature, and relaxation in the Andaman archipelago.",
+    reviews: [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}, ],
+    avgRating: 4.7,
     photo: tourImg05,
-    featured: false,
+   
   },
   {
     id: "06",
@@ -111,17 +85,12 @@ const tours = [
     distance: 500,
     address: "Shettihalli, Tumakuru, Karnataka, India",
     price: "30,000",
-    maxGroupSize: 8,
-    desc: " The Shettihalli Rosary Church is a partially submerged church located in Hassan district, Karnataka. It is a stunning sight during monsoon when the Hemavati River floods, partially covering the church's ruins.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    maxGroupSize: 38,
+    desc: " The Shettihalli Rosary Church in Karnataka is a captivating architectural marvel submerged in the waters of Hemavathi River, creating a surreal and picturesque sight. Built in the 19th century by French missionaries, the church's Gothic architecture and serene surroundings make it a popular destination for history enthusiasts and photographers. During the monsoon season, when the river water levels rise, the partially submerged church becomes a stunning spectacle, attracting visitors from far and wide. The church's elegant arches, pillars, and intricate details stand in contrast to the surrounding water, creating a serene yet dramatic setting for exploration and contemplation. The Shettihalli Rosary Church is not only a historical landmark but also a symbol of resilience, as it continues to captivate and inspire visitors with its timeless beauty and intriguing history.",
+    reviews: [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},],
     avgRating: 3.5,
     photo: tourImg06,
-    featured: false,
+    
   },
   {
     id: "07",
@@ -130,17 +99,12 @@ const tours = [
     distance: 500,
     address: "Loktak Lake,Moirang, Bishnupur district, Manipur, India",
     price: "40,000",
-    maxGroupSize: 8,
-    desc: "Loktak Lake in Manipur is known for its unique floating islands called phumdis. These circular mass of vegetation, soil, and organic matter float on the lake's surface and are home to diverse flora and fauna, including the endangered Sangai deer.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    maxGroupSize: 48,
+    desc: "Loktak Lake and Phumdis in Manipur offer a unique and enchanting experience amidst the natural wonders of northeastern India. Loktak Lake is renowned for being the largest freshwater lake in northeastern India, dotted with floating islands known as Phumdis, which are made of organic materials like vegetation and soil. The Phumdis serve as unique ecosystems, hosting diverse flora and fauna, including the endangered Sangai deer, making the lake a biodiversity hotspot. Visitors can explore the lake's beauty by taking boat rides to witness the floating islands up close and marvel at the picturesque surroundings. The Keibul Lamjao National Park, located within the lake, is home to the Sangai deer and offers opportunities for wildlife spotting and birdwatching. Loktak Lake and its Phumdis not only showcase nature's beauty but also highlight the importance of conservation and sustainable tourism in preserving fragile ecosystems for future generations to cherish and enjoy.",
+    reviews: [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},],
     avgRating: 4.8,
     photo: tourImg07,
-    featured: false,
+   
   },
   {
     id: "08",
@@ -149,17 +113,12 @@ const tours = [
     distance: 500,
     address:" Chamoli district, Uttarakhand, India",
     price: "50,000",
-    maxGroupSize: 8, 
-    desc: "The Nanda Devi Sanctuary is a rare and pristine wilderness area in the Garhwal Himalayas. It is home to diverse flora and fauna, including rare species like the snow leopard and Himalayan musk deer.",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    maxGroupSize: 28, 
+    desc: "The Nanda Devi Sanctuary in Uttarakhand is a mesmerizing wilderness sanctuary nestled amidst the majestic peaks of the Himalayas, offering a haven for adventure seekers and nature enthusiasts. Named after the towering Nanda Devi peak, the sanctuary is a UNESCO World Heritage Site known for its rich biodiversity and pristine landscapes. Visitors can embark on trekking expeditions to explore the sanctuary's rugged terrain, alpine meadows, and glacial lakes, with breathtaking views of snow-capped peaks at every turn. The sanctuary is home to a variety of wildlife, including snow leopards, Himalayan musk deer, and numerous bird species, making it a paradise for wildlife enthusiasts and photographers. The tranquil ambiance, dramatic landscapes, and spiritual aura of the Nanda Devi Sanctuary make it a must-visit destination for those seeking adventure, serenity, and a deep connection with nature in the heart of the Himalayas.",
+    reviews: [{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},],
     avgRating: 4.7,
     photo: tourImg08,
-    featured: false,
+   
   },
 ];
 

@@ -19,7 +19,7 @@ const quick__link = [
 ];
 const quick__link2 = [
   {
-    path: '/gallery',
+    path: '/imageGallery',
     display: 'Gallery'
   },
   {

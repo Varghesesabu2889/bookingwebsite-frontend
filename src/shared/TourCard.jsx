@@ -31,7 +31,6 @@ const {id,title,city, photo,price,avgRating,reviews} = tour  //ignore featured
         </button>
         </CardBody>
         </Card>
-        
         </div>
   
 }
