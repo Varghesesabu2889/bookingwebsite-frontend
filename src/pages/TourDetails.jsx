@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/tour-details.css'
-import {Container, Row, Col,Form,ListGroup} from "react-bootstrap";
+import {Container, Row, Col} from "react-bootstrap";
 import {useParams}  from 'react-router-dom';
 import tourData from '../assets/data/tours'
 import Booking from '../components/Booking/Booking';
